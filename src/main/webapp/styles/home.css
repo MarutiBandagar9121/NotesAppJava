@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1{
+	color:blue;
+}
+
+.authenticate-buttons{
+	display:flex;
+	flex-direction:row;
+	gap:10px;
+	
+}
+
+.authenticate-buttons .btn{
+	padding:5px;
+	border:2px solid black;
+	color:white;
+	
+}
+a{
+	text-decoration:none;
+}
+
+.btn-green{
+	background-color:green;
+}
+.btn-red{
+	background-color:red;
+}
